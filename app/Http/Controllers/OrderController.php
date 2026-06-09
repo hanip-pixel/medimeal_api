@@ -36,7 +36,7 @@ class OrderController extends Controller
         $userId = $request->query('user_id', 4);
         $orders = DB::table('orders')->where('user_id', $userId)->get();
         return response()->json($orders);
-    }
+    } 
 
     public function show($orderCode)
     {
