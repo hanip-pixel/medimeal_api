@@ -59,4 +59,4 @@ class PackageController extends Controller
         DB::table('meal_packages')->where('id', $id)->update(['is_available' => false]);
         return response()->json(['success' => true]);
     }
-}
+} 
