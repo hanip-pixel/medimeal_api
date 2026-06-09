@@ -40,7 +40,7 @@ class PackageController extends Controller
 
         return response()->json(['success' => true, 'id' => $id], 201);
     }
- 
+  
     // PUT update paket
     public function update(Request $request, $id)
     {
