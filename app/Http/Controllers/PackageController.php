@@ -48,7 +48,7 @@ class PackageController extends Controller
             'name' => $request->name,
             'price' => $request->price,
             'updated_at' => now(),
-        ]);
+        ]); 
 
         return response()->json(['success' => true]);
     }
