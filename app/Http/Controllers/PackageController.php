@@ -52,7 +52,7 @@ class PackageController extends Controller
 
         return response()->json(['success' => true]);
     }
-
+ 
     // DELETE paket (soft delete)
     public function destroy($id)
     {
