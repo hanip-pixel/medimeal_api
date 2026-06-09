@@ -21,7 +21,7 @@ class OrderController extends Controller
             'delivery_address' => $request->address,
             'status' => 'pending',
             'created_at' => now(),
-            'updated_at' => now(),
+            'updated_at' => now(), 
         ]);
 
         return response()->json([
