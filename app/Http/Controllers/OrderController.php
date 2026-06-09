@@ -26,7 +26,7 @@ class OrderController extends Controller
 
         return response()->json([
             'success' => true, 
-            'order_code' => $orderCode
+            'order_code' => $orderCode 
         ]);
     }
 
